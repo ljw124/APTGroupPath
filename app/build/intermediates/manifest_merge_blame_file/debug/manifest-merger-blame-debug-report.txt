@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.netease.modular"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:5:5-20:19
+12        android:name="com.netease.modular.base.AppApplication"
+12-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:6:9-44
+13        android:allowBackup="true"
+13-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+14-->[com.android.support:support-compat:28.0.0] C:\Users\lujinwei\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:8:9-43
+17        android:label="@string/app_name"
+17-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:9:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:10:9-54
+19        android:supportsRtl="true"
+19-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:11:9-35
+20        android:theme="@style/AppTheme" >
+20-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:12:9-40
+21        <activity android:name="com.netease.modular.MainActivity" >
+21-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:13:9-19:20
+21-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:13:19-47
+22            <intent-filter>
+22-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:14:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:15:17-69
+23-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:15:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:17:17-77
+25-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.netease.modular.order.Order_MainActivity" >
+28-->[:order] D:\Work\AndroidStudy\APTGroupPath\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-24:20
+28-->[:order] D:\Work\AndroidStudy\APTGroupPath\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-78
+29            <intent-filter>
+29-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:14:13-18:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:15:17-69
+30-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:15:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:17:17-77
+32-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:17:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.netease.modular.personal.Personal_MainActivity" >
+35-->[:personal] D:\Work\AndroidStudy\APTGroupPath\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-24:20
+35-->[:personal] D:\Work\AndroidStudy\APTGroupPath\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-84
+36            <intent-filter>
+36-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:14:13-18:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:15:17-69
+37-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:15:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:17:17-77
+39-->D:\Work\AndroidStudy\APTGroupPath\app\src\main\AndroidManifest.xml:17:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.netease.modular.personal.debug.Personal_DebugActivity" />
+42-->[:personal] D:\Work\AndroidStudy\APTGroupPath\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-94
+42-->[:personal] D:\Work\AndroidStudy\APTGroupPath\personal\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:19-91
+43    </application>
+44
+45</manifest>
